@@ -5,7 +5,7 @@ import React from "react";
 const SearchForm = () => {
   return (
     <>
-      <FormControl>
+      <FormControl sx={{width:"100%"}}>
         <SearchIcon
           sx={{ position: "absolute", height: "100%", paddingTop: "5px" }}
         />
